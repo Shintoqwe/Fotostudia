@@ -1,0 +1,1039 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font: 1em 'Open Sans', sans-serif;
+  background-color: #181818;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.head {
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  padding-left: 30px;
+}
+.rightBox {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  padding-right: 50px;
+}
+p.head {
+  font-size: 25px;
+  color: white;
+}
+.logo {
+  width: 50%;
+  height: auto;
+}
+.telo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #181818;
+}
+.block {
+  width: 100%;
+  height: 300px;
+  background-image: url("../../assets/img/foto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* box-shadow: inset 0 0 40px 40px #000000; */
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+p.name_funcs{
+  margin-top: 40px;
+  font-size: 30px;
+}
+a.name_funcs{
+  font-size: 40px;
+}
+.zali{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: rgba(8, 8, 8, 0.5);
+}
+.block_zal{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.zal_inf{
+  width: 400px;
+  height: 300px;
+  background-color: #47193B;
+  margin-top: 20px;
+}
+img.inf{
+  width: 100%;
+  height: 100%;
+}
+.product-wrapper {
+  display: block;
+  width: 100%;
+  float: left;
+  transition: width 0.2s;
+}
+a.opis{
+  
+  height: auto;
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+@media only screen and (min-width: 450px) {
+  .product-wrapper {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-wrapper {
+    width: 33.333%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .product-wrapper {
+    width: 33.3%;
+  }
+}
+.product {
+  display: block;
+  position: relative;
+  background-size: cover;
+  margin: 0 10px 20px 10px;
+  text-decoration: none;
+  color: #474747;
+  z-index: 0;
+  height: 300px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+/* Авторизация */
+.login-box {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 5px #000;
+  border-radius: 10px;
+}
+.login-box h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: #fff;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover {
+  background: #4caf50;
+  transition: 0.3s;
+}
+/*  */
+
+
+
+/* Регистрация */
+.register-box {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 5px #000;
+  border-radius: 10px;
+}
+.register-box h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: #fff;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover {
+  background: #4caf50;
+  transition: 0.3s;
+}
+
+/*  */
+
+/* Добавление фотографии */
+.upload-box {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 5px #000;
+  border-radius: 10px;
+}
+.upload-box h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: #fff;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover {
+  background: #4caf50;
+  transition: 0.3s;
+}
+
+
+
+/* Бронирование */
+.center{
+  width:100%;margin:auto;background:rgba(8, 8, 8, 0.5);
+  }
+  .clr{clear:both;}
+  
+  .bron_room{
+    width:100%;
+  }
+  
+  
+  .bron_room td{text-align:center;}
+  
+  .days_b{
+  border: 1px solid #fff;
+      padding: 3px;	cursor:pointer;
+  }
+  .fiol{
+    width: 70%;
+      text-align: center;
+      background: rgba(81, 27, 66, 0.85);
+    padding: 5px;border:none;cursor:default;
+  }
+  
+  .days_b:hover{background:rgba(81, 27, 66, 0.85)}
+  
+  .top_w{margin-top: 5px;}
+  
+  .bor_bron{
+    border: 1px solid #fff;
+      padding: 2px;
+    margin:2px;
+    cursor:pointer;
+    }
+  .bor_bron:hover{background:rgba(81, 27, 66, 0.85);}
+  
+  .okno_all{
+      background: rgba(175, 175, 175, 0);
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      top: 0;
+  left: 0;
+  }
+  
+  .okno_one{
+    width:260px;
+    margin:auto;
+    min-height:315px;
+    border:1px solid #fff;
+    background:#191919;
+  position:relative;
+  top:20%;padding-bottom:20px;
+  }
+  .krest{
+    float:right;
+    color:#fff;cursor:pointer;
+    border: 1px solid #fff;
+      padding: 3px;
+      margin: 0;
+      line-height: 13px;
+      border-top: none;
+      border-right: none;
+  }
+  .krest:hover{background:#5c5c5c;}
+  
+  .polay{
+    float:left;
+    color:#fff;
+    text-align:center;margin-top:10px;
+  }
+  
+  .polay input{
+    background:#191919;
+    color:#fff;
+    border:1px solid #fff;
+        font-size: 16px;
+      text-align: center;
+      padding: 5px;
+    margin-top: 20px;
+  }
+  
+  #but_z{margin-top: 40px;
+      background: #47193B;
+      border: none;
+      padding: 10px 10px;
+    background:rgba(81, 27, 66, 0.85);cursor:pointer;}
+  #but_z:hover{border:1px solid #fff;padding:9px 9px;}
+  
+
+/* коллаж */
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin-bottom: 40px;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+  width: 100%;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+/* Кнопки таблицы */
+
+
+
+
+.box-1 { background-color: rgba(8, 8, 8,) }
+
+
+.btn_q {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 70%;
+  cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.btn-one {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-one span {
+  transition: all 0.3s;
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+.btn-one:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(153, 153, 153, 0.1);
+  border-radius: 3px;
+}
+.btn-one:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+
+/* кнопка перехода в галерею */
+
+.type--A{
+  --line_color : #ffffff ;
+  --back_color : #e0549f  ;
+}
+.button{
+    position : relative ;
+    z-index : 0 ;
+    width : 240px ;
+    height : 56px ;
+    text-decoration : none ;
+    font-size : 14px ; 
+    font-weight : bold ;
+    color : var(--line_color) ;
+    letter-spacing : 2px ;
+    transition : all .3s ease ;
+}
+.button__text{
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    width : 100% ;
+    height : 100% ;
+    font-size: 40px;
+}
+.button::before,
+.button::after,
+.button__text::before,
+.button__text::after{
+    content : '' ;
+    position : absolute ;
+    height : 3px ;
+    border-radius : 2px ;
+    background : var(--line_color) ;
+    transition : all .5s ease ;
+}
+.button::before{
+    top : 0 ;
+    left : 54px ;
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button::after{
+    top : 0 ;
+    right : 54px ;
+    width : 8px ;
+}
+.button__text::before{
+    bottom : 0 ;
+    right : 54px ;
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button__text::after{
+    bottom : 0 ;
+    left : 54px ;
+    width : 8px ;
+}
+.button__line{
+    position : absolute ;
+    top : 0 ;
+    width : 56px ;
+    height : 100% ;
+    overflow : hidden ;
+}
+.button__line::before{
+    content : '' ;
+    position : absolute ;
+    top : 0 ;
+    width : 150% ;
+    height : 100% ;
+    box-sizing : border-box ;
+    border-radius : 300px ;
+    border : solid 3px var(--line_color) ;
+}
+.button__line:nth-child(1),
+.button__line:nth-child(1)::before{
+    left : 0 ;
+}
+.button__line:nth-child(2),
+.button__line:nth-child(2)::before{
+    right : 0 ;
+}
+.button:hover{
+    letter-spacing : 6px ;
+}
+.button:hover::before,
+.button:hover .button__text::before{
+    width : 8px ;
+}
+.button:hover::after,
+.button:hover .button__text::after{
+    width : calc( 100% - 56px * 2 - 16px ) ;
+}
+.button__drow1,
+.button__drow2{
+    position : absolute ;
+    z-index : -1 ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+}
+.button__drow1{
+    top : -16px ;
+    left : 40px ;
+    width : 32px ;
+    height : 0;
+    transform : rotate( 30deg ) ;
+}
+.button__drow2{
+    top : 44px ;
+    left : 77px ;
+    width : 32px ;
+    height : 0 ;
+    transform : rotate(-127deg ) ;
+}
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2::before,
+.button__drow2::after{
+    content : '' ;
+    position : absolute ;
+}
+.button__drow1::before{
+    bottom : 0 ;
+    left : 0 ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -60deg ) ;
+}
+.button__drow1::after{
+    top : -10px ;
+    left : 45px ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( 69deg ) ;
+}
+.button__drow2::before{
+    bottom : 0 ;
+    left : 0 ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -146deg ) ;
+}
+.button__drow2::after{
+    bottom : 26px ;
+    left : -40px ;
+    width : 0 ;
+    height : 32px ;
+    border-radius : 16px ;
+    transform-origin : 16px 16px ;
+    transform : rotate( -262deg ) ;
+}
+.button__drow1,
+.button__drow1::before,
+.button__drow1::after,
+.button__drow2,
+.button__drow2::before,
+.button__drow2::after{
+    background : var( --back_color ) ;
+}
+.button:hover .button__drow1{
+    animation : drow1 ease-in .06s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow1::before{
+    animation : drow2 linear .08s .06s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow1::after{
+    animation : drow3 linear .03s .14s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2{
+    animation : drow4 linear .06s .2s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2::before{
+    animation : drow3 linear .03s .26s ;
+    animation-fill-mode : forwards ;
+}
+.button:hover .button__drow2::after{
+    animation : drow5 linear .06s .32s ;
+    animation-fill-mode : forwards ;
+}
+@keyframes drow1{
+    0%   { height : 0 ; }
+    100% { height : 100px ; }
+}
+@keyframes drow2{
+    0%   { width : 0 ; opacity : 0 ;}
+    10%  { opacity : 0 ;}
+    11%  { opacity : 1 ;}
+    100% { width : 120px ; }
+}
+@keyframes drow3{
+    0%   { width : 0 ; }
+    100% { width : 80px ; }
+}
+@keyframes drow4{
+    0%   { height : 0 ; }
+    100% { height : 120px ; }
+}
+@keyframes drow5{
+    0%   { width : 0 ; }
+    100% { width : 124px ; }
+}
+
+.container{
+  
+    width : 100% ;
+    height : 300px ;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : center ;
+    align-items : center ;
+    margin-top: -80px;
+}
+.button:not(:last-child){
+  margin-bottom : 64px ;
+}
+
+
+/* Информация о студиях */
+.chicl_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.info_stud{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+.studia_slider{
+  width: 30%;
+  height: 400px;
+  background-size:contain;
+  background-image: url("../img/chicl2.jpg") ;
+  margin-right: 50px;
+  background-repeat: no-repeat;
+}
+.studia_ifno{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 400px;
+  align-items: start;
+}
+.name_studia{
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  justify-content: center;
+  align-items: start;
+}
+.opis_studia{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+/* Бронирование кнопка */
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(141, 141, 141, 0.5);
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #ffffff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #383838;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
+}
+
+
+
+/* тригер скрола
+#showmore-triger {
+	text-align: center;
+	padding: 10px;
+	background: #ffdfdf;
+} */
+
+
+
+/* Отправка коментариев */
+
+#comment{
+  display: flex;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+.position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#personal {
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  bottom:15px;
+  right:2%;
+}
+/*    start code for the actual button:         */
+
+
+/*   
+    Spot is the span on the inside of the href that
+    fills the parent and makes the hover and link work
+    for the entire div
+*/
+
+
+/*
+    This is the outer svg wrapper that the SVG itself will 
+    fill. Multiple svg-wrapper classes can be put side by side.
+*/
+
+.svg-wrapper {
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+/*
+  This is where we define the fill, color, thickness,
+  and stroke pattern of the SVG when there is no hover.
+  The dasharray and offset together define the line position
+  under the words. Here's also where the transition speed is set.
+*/
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #4e074b;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+/* 
+    Pushing the text up into the SVG. Without this the
+    text would be below the div's.
+*/
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+
+/* 
+    Changing the shape on hover. I change the color of the stroke,
+make it thinner, then set it to again wrap around the entire parent element.
+*/
+
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke: #b219b8;
+}
+
+
+/* Слайдер */
+
+
+.btn_slider {
+  border-radius: 2px;
+  padding: 8px 12px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+
+.card {
+  background: #ffffff;
+  width: 30%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 48px;
+  text-align: center;
+}
+
+.products {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.product {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+.product.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.thumbnail {
+  margin: 0 0 48px;
+}
+
+.title {
+  margin: 0 0 12px;
+  color: #d18b49;
+  font-size: 24px;
+  transition: 0.5s ease;
+}
+
+.description {
+  margin: 0 0 48px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -12px -12px;
+}
+
+[ripple] {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+[ripple] .ripple {
+  position: absolute;
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: scale(0);
+  -webkit-animation: ripple 2s;
+          animation: ripple 2s;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(20);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(20);
+    opacity: 0;
+  }
+}
